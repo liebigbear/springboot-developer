@@ -18,7 +18,7 @@ jobs:
           java-version: '17'
 
       - name: Grant execute permisson for gradlew
-        run: chmod +X gradlew
+        run: chmod +x gradlew
 
       - name: Build with Gradle
         run: ./gradlew clean build
